@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!-- Remixicons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Hemanta Dutta - Portfolio</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Hemanta.</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">About</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#skills" class="nav__link">Skills</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#experience" class="nav__link">Experience</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link">Contact</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-apps-2-line"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <span class="home__subtitle">Hello, I'm</span>
+                  <h1 class="home__title">Hemanta Dutta</h1>
+                  <h3 class="home__education">Accountant & Tax Associate</h3>
+                  <p class="home__description">
+                     Dedicated professional with 3+ years of hands-on experience in accounting, 
+                     GST return filing, bookkeeping, and sales operations based in Jorhat, Assam.
+                  </p>
+                  
+                  <div class="home__buttons">
+                     <a href="#contact" class="button">Contact Me</a>
+                     <a href="MY RESUME HEMANTA DUTTA.pdf" download class="button button--ghost">Download CV</a>
+                  </div>
+               </div>
+
+               <div class="home__img-box">
+                  <!-- Apni photo ko assets/img/ me dalkar yahan link karein -->
+                  <img src="assets/img/home-img.png" alt="Hemanta Dutta" class="home__img">
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <p class="about__description">
+                     Detail-oriented commerce graduate (B.Com Hons) adept in managing day-to-day 
+                     financial records, tax filings, and client ledgers. Experienced in software 
+                     like Tally and Ezy Rakod, combined with past experience in FMCG distribution.
+                  </p>
+
+                  <div class="about__info grid">
+                     <div>
+                        <span class="about__info-title">03+</span>
+                        <span class="about__info-name">Years <br> Experience</span>
+                     </div>
+                     <div>
+                        <span class="about__info-title">B.Com</span>
+                        <span class="about__info-name">Honors <br> Graduate</span>
+                     </div>
+                     <div>
+                        <span class="about__info-title">PGDCA</span>
+                        <span class="about__info-name">Computer <br> Qualified</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SKILLS ====================-->
+         <section class="skills section" id="skills">
+            <h2 class="section__title">Skills & Tools</h2>
+            <span class="section__subtitle">My Technical & Functional Expertise</span>
+
+            <div class="skills__container container grid">
+               <!-- Accounting & Tax -->
+               <div class="skills__content">
+                  <h3 class="skills__title">Accounting & Taxation</h3>
+                  <ul class="skills__list">
+                     <li class="skills__item"><i class="ri-checkbox-circle-line"></i> GST Filing & Compliance</li>
+                     <li class="skills__item"><i class="ri-checkbox-circle-line"></i> Bank Reconciliation</li>
+                     <li class="skills__item"><i class="ri-checkbox-circle-line"></i> Ledger Maintenance</li>
+                     <li class="skills__item"><i class="ri-checkbox-circle-line"></i> Financial Reporting</li>
+                  </ul>
+               </div>
+
+               <!-- Software & IT -->
+               <div class="skills__content">
+                  <h3 class="skills__title">Software & IT Skills</h3>
+                  <ul class="skills__list">
+                     <li class="skills__item"><i class="ri-checkbox-circle-line"></i> Tally Prime / ERP</li>
+                     <li class="skills__item"><i class="ri-checkbox-circle-line"></i> Ezy Rakod</li>
+                     <li class="skills__item"><i class="ri-checkbox-circle-line"></i> Advanced MS Excel & Office</li>
+                     <li class="skills__item"><i class="ri-checkbox-circle-line"></i> DTP & Hardware Basics</li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== EXPERIENCE & QUALIFICATIONS ====================-->
+         <section class="qualification section" id="experience">
+            <h2 class="section__title">Experience & Education</h2>
+            <span class="section__subtitle">My Journey</span>
+
+            <div class="qualification__container container grid">
+               <!-- Experience -->
+               <div class="qualification__group">
+                  <h3 class="qualification__heading"><i class="ri-briefcase-line"></i> Work Experience</h3>
+                  
+                  <div class="qualification__card">
+                     <h4 class="qualification__title">Accountant</h4>
+                     <span class="qualification__place">Tax Consultant Firm • Jorhat, Assam</span>
+                     <span class="qualification__date">3 Years</span>
+                     <p>Managed daily accounting entries, prepared GST returns, and reconciled accounts using Tally and Ezy Rakod.</p>
+                  </div>
+
+                  <div class="qualification__card">
+                     <h4 class="qualification__title">Sales Representative</h4>
+                     <span class="qualification__place">Nestle Distributor • Jorhat, Assam</span>
+                     <span class="qualification__date">1 Year</span>
+                     <p>Managed retail network relationships, tracked inventory levels, and supervised supply distribution.</p>
+                  </div>
+               </div>
+
+               <!-- Education -->
+               <div class="qualification__group">
+                  <h3 class="qualification__heading"><i class="ri-graduation-cap-line"></i> Education & Diplomas</h3>
+                  
+                  <div class="qualification__card">
+                     <h4 class="qualification__title">Bachelor of Commerce (B.Com Hons)</h4>
+                     <span class="qualification__place">C.K.B. College, Teok (Dibrugarh University)</span>
+                     <span class="qualification__date">Graduated: 2023 (CGPA: 6.69)</span>
+                  </div>
+
+                  <div class="qualification__card">
+                     <h4 class="qualification__title">Computer Certifications</h4>
+                     <span class="qualification__place">PGDCA & Hardware/DTP Diplomas</span>
+                     <span class="qualification__date">Certified</span>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== CONTACT ME ====================-->
+         <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+               <div class="contact__info grid">
+                  <div class="contact__card">
+                     <i class="ri-mail-line contact__card-icon"></i>
+                     <h3 class="contact__card-title">Email</h3>
+                     <span class="contact__card-data">hdutta540@gmail.com</span>
+                     <a href="mailto:hdutta540@gmail.com" class="contact__button">Write me <i class="ri-arrow-right-line"></i></a>
+                  </div>
+
+                  <div class="contact__card">
+                     <i class="ri-phone-line contact__card-icon"></i>
+                     <h3 class="contact__card-title">Call / WhatsApp</h3>
+                     <span class="contact__card-data">+91 9365678816</span>
+                     <a href="tel:9365678816" class="contact__button">Call now <i class="ri-arrow-right-line"></i></a>
+                  </div>
+
+                  <div class="contact__card">
+                     <i class="ri-map-pin-line contact__card-icon"></i>
+                     <h3 class="contact__card-title">Location</h3>
+                     <span class="contact__card-data">Jorhat, Assam - 785007</span>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <h1 class="footer__title">Hemanta Dutta</h1>
+               <span class="footer__subtitle">Accountant & Tax Professional</span>
+            </div>
+
+            <p class="footer__copy">&#169; Hemanta Dutta. All rights reserved.</p>
+         </div>
+      </footer>
+
+      <!-- Main JS -->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
+
